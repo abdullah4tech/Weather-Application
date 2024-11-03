@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 # 🌦️ get_weather function to fetch and parse XML data from API
 def get_weather(city):
-    API_key = "5438ea6a14561785a48d08e8ddc7a5d8"
+    API_key = "05f4ee67848cc2f2685db6e4c1cf5f3e"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&mode=xml&appid={API_key}"
     res = requests.get(url)
 
